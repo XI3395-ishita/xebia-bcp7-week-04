@@ -16,12 +16,7 @@ public class UserDAO {
        String username = bean.getUsername();    
        String password = bean.getPassword();   
 	    
-       String searchQuery =
-             "select * from users where username='"
-                      + username
-                      + "' AND password='"
-                      + password
-                      + "'";
+       String searchQuery = "select * from users where username='"+ username+ "' AND password='"+ password+ "'";
 	    
     // "System.out.println" prints in the console; Normally used to trace the process
     System.out.println("Your user name is " + username);          
