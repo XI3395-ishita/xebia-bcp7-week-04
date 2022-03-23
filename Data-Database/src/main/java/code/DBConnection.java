@@ -5,7 +5,7 @@ public class DBConnection {
      public ResultSet rs;
      public Connection conn;
      public PreparedStatement ps =null;      
-        //try-catch
+        //try-catch block
      public Connection setConnection(){
          try{
                  Class.forName("com.mysql.jdbc.Driver");
